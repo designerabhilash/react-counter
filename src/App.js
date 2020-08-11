@@ -29,7 +29,7 @@ export default function App() {
                 </div>
               </div>
               <div className="row mt-3">
-                <div className="col-sm-6">
+                <div className="col-sm-6 col-6">
                   <div className="input-group-btn">
                     <button className="quantity-left-minus btn btn-danger btn-number w-100"
                       onClick={decrementNum}
@@ -41,7 +41,7 @@ export default function App() {
                     </button>
                   </div>
                 </div>
-                <div className="col-sm-6">
+                <div className="col-sm-6 col-6">
                   <div className="input-group-btn">
                     <button className="quantity-right-plus btn btn-success btn-number w-100"
                       onClick={incrementNum}
