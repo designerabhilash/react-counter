@@ -21,7 +21,7 @@ export default function App() {
     <div className="bg-color">
       <div className="container">
         <div className="row">
-          <div className="text-center"><h2>React Counter</h2></div>
+          <div className="text-center text-white mb-3"><h2>React Counter</h2></div>
           <div className="col-md-4 mx-auto">
             <div className="productqty text-center">
               <div className="row">
