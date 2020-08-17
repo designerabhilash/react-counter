@@ -4,11 +4,11 @@ import './App.css';
 export default function App() {
   const [num, updateNum] = useState(0)
   const incrementNum = () => {
-    updateNum(num + 1)
+    updateNum(prevNum => prevNum + 1)
   }
   const decrementNum = () => {
     if (num > 0) {
-      updateNum(num - 1)
+      updateNum(prevNum => prevNum - 1)
     } else {
       alert("Value Has Reached to Zero")
     }
